@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i src.css -o disqusdecoder.css -w",
+    "build": "npx tailwindcss -i src.css -o disqusdecoder.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

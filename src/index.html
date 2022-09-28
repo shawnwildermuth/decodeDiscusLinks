@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="disqusdecoder.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-gray-500">
+    <div class="mx-auto container bg-slate-800 text-gray-50 p-2">
+      <div class="mx-auto w-full md:w-2/3">
+        <h1 class="text-2xl font-bold font-serif">Disqus Link Decoder</h1>
+        <div>
+          <a
+            href="mailto:shawn@wildermuth.com?subject=Disqus Decoder Issue"
+            class="text-blue-400 hover:text-blue-600 italic"
+            >Click here to contact me if you are having an issue.</a
+          >
+        </div>
+        <p>
+          This is a tool to convert the email notification link into the actual
+          discussion on Disqus. I know we shouldn't need this, but alas this is
+          the state of the world.
+        </p>
+        <div class="flex justify-between justify-items-center">
+          <div class="w-full mr-2">
+            <input
+              id="urlInput"
+              placeholder="paste your disqus link here"
+              type="text"
+              class="w-full my-2 rounded p-2 text-lg outline-none focus:ring-2 ring-blue-600 text-gray-900"
+            />
+          </div>
+          <div>
+            <button
+              type="button"
+              class="rounded bg-green-700 text-lg whitespace-nowrap text-white border-green-600 hover:bg-green-600 my-2 p-2"
+              id="goButton"
+            >
+              Go to Comment
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="disqusdecoder.js"></script>
+</html>
