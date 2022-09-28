@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i src.css -o disqusdecoder.css -w",
-    "build": "npx tailwindcss -i src.css -o disqusdecoder.css"
+    "build": "npx tailwindcss -i src.css -o ../dist/disqusdecoder.css"
   },
   "keywords": [],
   "author": "",
